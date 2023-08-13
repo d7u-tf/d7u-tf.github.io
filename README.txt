@@ -1,7 +1,7 @@
 The Original template is from Aerial by HTML5 UP [html5up.net](http://html5up.net/) | @ajlkn
 This Template is free for personal and commercial use under the CCA 3.0 license ([html5up.net/license](http://html5up.net/license))
 
-# ❓Why are we still using physical name card?
+#❓Why are we still using physical name card?
 
 How many time have you actually save the number from the name card you receive? Probably not very much. How many time do you think your client or the business partner that you want to know or impress save your number?
 
@@ -9,7 +9,7 @@ Let’s face the reality, most of the people don’t read name card after the fi
 
 We exchange name card for people to remember us. When they have business, we want them to have our number in their pocket so we are just one call away. 
 
-# 💼Make your own Virtual Name Card
+#💼Make your own Virtual Name Card
 
 Virtual Name Card is a great solution to all the problem above:
 
