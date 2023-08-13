@@ -1,64 +1,43 @@
-Aerial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+The Original template is from Aerial by HTML5 UP [html5up.net](http://html5up.net/) | @ajlkn
+This Template is free for personal and commercial use under the CCA 3.0 license ([html5up.net/license](http://html5up.net/license))
 
+# ❓Why are we still using physical name card?
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+How many time have you actually save the number from the name card you receive? Probably not very much. How many time do you think your client or the business partner that you want to know or impress save your number?
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+Let’s face the reality, most of the people don’t read name card after the first hand shake. Organizing business contact is even troublesome. However, companies are still spending money and cutting trees to print them. It’s not cost effective, it’s not sustainable, and it’s not useful.
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+We exchange name card for people to remember us. When they have business, we want them to have our number in their pocket so we are just one call away. 
 
-AJ
-aj@lkn.io | @ajlkn
+# 💼Make your own Virtual Name Card
 
+Virtual Name Card is a great solution to all the problem above:
 
-The Scrolling Background:
+1. Save the trees!
+2. Save money for title change, new employee onboard, and badge update. 
+3. People can directly save your number when you give them, or even direct them to your other social media like LinkedIn or GitHub
+4. You can never forget your name card 
+5. Building the professional and technical image. (You value your personal branding, you follow the trend, and you love earth 🌏)
 
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
+Most importantly, it’s completely FREE! 
 
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
+Sounds good to you? Let’s get started! 
 
-	Now, there are two ways to use it: with CSS, or with Sass:
+# Concept and Architecture
 
-	CSS:
+Virtual Name Card is basically a website that designed to display all your related information and link in a glance. You want to include your name, your title, and most importantly, your contact information.
 
-		Look for this line in css/style.css (line 108 as of this writing):
+So here’s the diagram of the Virtual Name Card: 
 
-			background: #348cb2 url("images/bg.jpg") bottom left;
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11a3ba80-078a-4599-8403-1113da44641e/Untitled.png)
 
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
+In the project we use GitHub to host our website because it’s free and easy. If you already have a website hosting on other platform, you don’t necessary need to upload to GitHub.
 
-	Sass:
+Depends on how you want your audience to access your Virtual Name Card, you can optionally purchase a NFC tag or a NFC card (which are very very cheap) and use it to enhance the experience of the Virtual Name Card. 
 
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
+# Prerequisite
 
-
-Credits:
-
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+1. A GitHub Account → To Clone this repo and to host the website using GitHub Pages. 
+2. A soft copy of your Name Card
+3. Your profile picture
+4. (Optional) NFC Tag or NFC card  
